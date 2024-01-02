@@ -1,0 +1,24 @@
+{
+  "name": "chessboard-threejs",
+  "version": "1.0.0",
+  "description": "Chessboard loaded via three.js library",
+  "main": "main.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VaniIndrali/ChessBoard-Threejs.git"
+  },
+  "author": "Vani Indrali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VaniIndrali/ChessBoard-Threejs/issues"
+  },
+  "homepage": "https://github.com/VaniIndrali/ChessBoard-Threejs#readme",
+  "devDependencies": {
+    "@types/three": "^0.160.0",
+    "three": "^0.160.0",
+    "vite": "^5.0.10"
+  }
+}
