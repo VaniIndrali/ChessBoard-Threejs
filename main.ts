@@ -40,7 +40,7 @@ var group;
 // add materials to the object using MTLLoader & load object using OBJLoader
 const chessBoardMaterial = new MTLLoader();
 chessBoardMaterial.load(
-    './Model/chessboardModel.mtl',
+    './public/model/chessboardmodel.mtl',
     (materials) => {
         materials.preload()
 
@@ -51,7 +51,7 @@ chessBoardMaterial.load(
         chessBoard.setMaterials(materials)
 
         chessBoard.load(
-        './Model/chessboardModel.obj',
+        './public/model/chessboardmodel.obj',
         (object) => {
             object.position.y = 8
 
