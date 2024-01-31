@@ -14,9 +14,6 @@ const camera = new THREE.PerspectiveCamera(
 )
 camera.position.z = 35
 
-//adding axes helper to the object
-scene.add(new THREE.AxesHelper(15)); 
-
 // adding light for the meshphongmaterial
 const frontLight = new THREE.PointLight(0xffffff, 1000)
 frontLight.position.set(0,2, 25)
